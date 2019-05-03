@@ -1,0 +1,20 @@
+{% extends 'blog/base_blog.html' %}
+
+{% block title %}
+    {{ post.title }} - {{ block.super }}
+{% endblock %}
+
+{% block content %}
+    <div class="card bg-light">
+      <div class="card-header">
+          <h1 class="text-center mt-2 mb-2">
+            {{ post.title }}
+        </h1>
+      </div>
+      <div class="card-body">
+        <p class="card-text">
+            {{ post.body }}
+        </p>
+      </div>
+    </div>
+{% endblock %}
