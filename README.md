@@ -1,2 +1,2 @@
 # DjangoPractice
-Just django practice
+Just django practice.
