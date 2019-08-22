@@ -2,11 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2985c36-b68c-4d4e-a74e-603c0086ab90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mysite/polls/templates/polls/results.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/templates/admin/base_site.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/polls/templates/polls/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/templates/polls/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/polls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/templates/polls/detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/templates/polls/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/templates/polls/results.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/venv/bin/easy_install" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/venv/bin/easy_install" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/venv/bin/easy_install-3.7" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/venv/bin/easy_install-3.7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/venv/lib/python3.7/site-packages/easy-install.pth" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/venv/lib/python3.7/site-packages/easy-install.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/venv/lib/python3.7/site-packages/setuptools-40.8.0-py3.7.egg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,30 +31,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mysite/polls/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysite/polls/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/mysite/urls.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -52,38 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysite/mysite/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1875">
-              <caret line="125" selection-start-line="125" selection-end-line="125" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysite/polls/templates/polls/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysite/polls/templates/polls/results.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysite/polls/templates/polls/detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="384">
+              <caret line="119" selection-start-line="119" selection-end-line="119" />
             </state>
           </provider>
         </entry>
@@ -105,14 +69,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/mysite/mysite/urls.py" />
-        <option value="$PROJECT_DIR$/mysite/polls/models.py" />
         <option value="$PROJECT_DIR$/mysite/polls/admin.py" />
-        <option value="$PROJECT_DIR$/mysite/mysite/settings.py" />
-        <option value="$PROJECT_DIR$/mysite/polls/templates/polls/index.html" />
-        <option value="$PROJECT_DIR$/mysite/polls/templates/polls/detail.html" />
-        <option value="$PROJECT_DIR$/mysite/polls/templates/polls/results.html" />
         <option value="$PROJECT_DIR$/mysite/polls/urls.py" />
         <option value="$PROJECT_DIR$/mysite/polls/views.py" />
+        <option value="$PROJECT_DIR$/mysite/mysite/settings.py" />
+        <option value="$PROJECT_DIR$/mysite/polls/models.py" />
+        <option value="$PROJECT_DIR$/mysite/polls/templates/polls/index.html" />
+        <option value="$PROJECT_DIR$/mysite/polls/tests.py" />
+        <option value="$PROJECT_DIR$/mysite/polls/templates/polls/results.html" />
+        <option value="$PROJECT_DIR$/mysite/polls/templates/polls/detail.html" />
+        <option value="$PROJECT_DIR$/mysite/polls/static/polls/style.css" />
       </list>
     </option>
   </component>
@@ -147,27 +113,6 @@
               <item name="mysite" type="462c0819:PsiDirectoryNode" />
               <item name="mysite" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="djTutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="djTutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="polls" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="djTutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="djTutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="polls" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="djTutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="djTutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="polls" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="polls" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -178,7 +123,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dj" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
@@ -194,6 +139,28 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unittests for polls.tests.QuestionIdIsEmpty.test_all_queryset_is_empty_not_exist" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="djTutorial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mysite" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;polls.tests.QuestionIdIsEmpty.test_all_queryset_is_empty_not_exist&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests for polls.tests.QuestionIdIsEmpty.test_all_queryset_is_empty_not_exist" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -216,22 +183,55 @@
       <workItem from="1559424397039" duration="4867000" />
       <workItem from="1559675225645" duration="150000" />
       <workItem from="1559991280465" duration="1549000" />
-      <workItem from="1560172016699" duration="4762000" />
+      <workItem from="1560172016699" duration="4927000" />
+      <workItem from="1561727693940" duration="2289000" />
+      <workItem from="1561905545255" duration="4870000" />
+      <workItem from="1561923979933" duration="2813000" />
+      <workItem from="1561938710537" duration="603000" />
+      <workItem from="1562012795120" duration="4147000" />
+      <workItem from="1562838552424" duration="13987000" />
+      <workItem from="1563472374070" duration="2692000" />
+      <workItem from="1563534923159" duration="805000" />
+      <workItem from="1563580517048" duration="3200000" />
+      <workItem from="1564090544357" duration="720000" />
+      <workItem from="1565006422211" duration="49000" />
+      <workItem from="1565006530701" duration="1767000" />
+      <workItem from="1565038831187" duration="659000" />
+      <workItem from="1565914813503" duration="65000" />
+      <workItem from="1565918665268" duration="841000" />
+      <workItem from="1565920066742" duration="556000" />
+      <workItem from="1565921953151" duration="263000" />
+      <workItem from="1565922739671" duration="11000" />
+      <workItem from="1565957138527" duration="1319000" />
+      <workItem from="1565962588583" duration="409000" />
+      <workItem from="1565963148728" duration="2776000" />
+      <workItem from="1566391846966" duration="5023000" />
+      <workItem from="1566420136852" duration="6681000" />
+      <workItem from="1566427138371" duration="219000" />
+      <workItem from="1566427696016" duration="181000" />
+      <workItem from="1566429190339" duration="487000" />
+      <workItem from="1566434125065" duration="4042000" />
+      <workItem from="1566482267194" duration="118000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_polls_tests_QuestionIdIsEmpty_test_all_queryset_is_empty_not_exist - 2019.07.20 at 03h 08m 48s.xml">
+      <configuration name="Unittests for polls.tests.QuestionIdIsEmpty.test_all_queryset_is_empty_not_exist" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27839000" />
+    <option name="totallyTimeSpent" value="89596000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1299" height="743" extended-state="7" />
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30007982" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35115722" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -239,9 +239,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32899022" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32084692" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5019952" side_tool="true" weight="0.6237785" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4980048" weight="0.48859936" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -252,7 +252,21 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/djTutorial$Unittests_for_polls_tests_QuestionIdIsEmpty_test_all_queryset_is_empty_not_exist.coverage" NAME="Unittests for polls.tests.QuestionIdIsEmpty.test_all_queryset_is_empty_not_exist Coverage Results" MODIFIED="1563581327698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysite" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mysite/polls/apps.py" />
+    <entry file="file://$PROJECT_DIR$/mysite/polls/admin.py" />
+    <entry file="file://$PROJECT_DIR$/mysite/polls/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/mysite/polls/urls.py" />
+    <entry file="file://$PROJECT_DIR$/mysite/polls/views.py" />
+    <entry file="file://$PROJECT_DIR$/mysite/polls/models.py" />
+    <entry file="file://$PROJECT_DIR$/mysite/polls/tests.py" />
+    <entry file="file://$PROJECT_DIR$/mysite/polls/templates/polls/results.html" />
+    <entry file="file://$PROJECT_DIR$/mysite/polls/templates/polls/detail.html" />
+    <entry file="file://$PROJECT_DIR$/mysite/polls/templates/polls/index.html" />
+    <entry file="file://$PROJECT_DIR$/mysite/polls/static/polls/style.css" />
     <entry file="file://$PROJECT_DIR$/mysite/mysite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -265,69 +279,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysite/mysite/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1875">
-          <caret line="125" selection-start-line="125" selection-end-line="125" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/polls/templates/polls/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/polls/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/polls/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="75" selection-start-line="14" selection-start-column="75" selection-end-line="14" selection-end-column="75" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/polls/templates/polls/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/polls/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/polls/templates/polls/results.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/polls/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="384">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
         </state>
       </provider>
     </entry>

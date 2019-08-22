@@ -25,7 +25,7 @@ SECRET_KEY = '$qt0-$lh2nu(4v((rn9ynb-nw!!u840t7i_nssjl20lun@&aws'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'testserver']
 
 
 # Application definition
